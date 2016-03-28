@@ -10,10 +10,6 @@
   <properties>
   	<jdk.version>1.7</jdk.version>
   </properties>
-  <modules>
-    <module>bookkart_presentation</module>
-    <module>testing_mod</module>
-  </modules>
   <build>
   	<pluginManagement>
   		<plugins>
