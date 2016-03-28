@@ -12,6 +12,7 @@
   </properties>
   <modules>
     <module>bookkart_presentation</module>
+    <module>testing_mod</module>
   </modules>
   <build>
   	<pluginManagement>
