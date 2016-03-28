@@ -25,4 +25,7 @@
   		</plugins>
   	</pluginManagement>
   </build>
+  <modules>
+    <module>bookkartApp</module>
+  </modules>
 </project>
