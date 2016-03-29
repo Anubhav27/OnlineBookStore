@@ -35,5 +35,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/softwares_imp/JavEE7_SDK/sdk/java_ee_sdk-7u1.zip"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
