@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
 	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta charset="utf-8">
@@ -16,7 +14,7 @@
       <title>Online Bookstore</title> 
 
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="CSS/bootstrap/bootstrap.css"/>
+      <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.css"/>
 
       <!-- Custom CSS-->
       <link rel="stylesheet" type="text/css" href="CSS/CustomCSS/index.css" />
@@ -39,16 +37,3 @@
       <!-- Integrating Google signIn sdk-->
       <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
-
-<body>
- 	<div id="div1">
- 	   1
- 	</div>
- 	<div id="div2">
- 	   2
- 	</div>
- 	<div id="div3">
- 	   3
- 	</div>
-</body>
-</html>

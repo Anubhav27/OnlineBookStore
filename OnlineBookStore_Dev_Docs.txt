@@ -1,0 +1,35 @@
+                                      Target : Build an online Book store where user can buy books online
+
+Tech Stack :
+
+Backend : Java/J2EE,Spring,Hibernate,Glassfish,DAO,JDO,JPA,JTA,Akka,RabbitMQ,MongoDB and MySql 
+
+
+day 1 : 
+
+ eclipse IDE : done
+ maven : done
+ github : done
+ egit : done
+ setup project structure : done
+ Log4J : done
+ jUnit : done
+
+day 2:
+
+front end development : 
+
+HTML,CSS,JS,AJAX,BootStrap,JQuery,AngularJS
+
+
+day 3:
+
+ mySQL DB :
+ DB Design : 
+
+
+
+-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9009 
+
+
+-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=${JAVA_DEBUGGER_PORT}
