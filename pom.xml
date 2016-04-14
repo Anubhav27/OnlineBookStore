@@ -104,5 +104,6 @@
   </build>
   <modules>
     <module>bookkartApp</module>
+    <module>bookkartApp_Database</module>
   </modules>
 </project>
