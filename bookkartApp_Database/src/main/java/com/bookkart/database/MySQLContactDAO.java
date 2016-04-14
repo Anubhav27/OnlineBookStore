@@ -22,7 +22,7 @@ public class MySQLContactDAO implements ContactDAO {
 		else{
 		System.out.println("connection is not null");
 		
-		String sql = "insert into contactus values(?,?,?,?,?,?)";
+		String sql = "insert into contactus(Contact_Name,Contact_Email,Contact_Message,Contact_City,Contact_Query_Type,Contact_TimeStamp) values(?,?,?,?,?,?)";
 		
 		try {
 			System.out.println(con.getContact_City());
