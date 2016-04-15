@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+    <package name="user" namespace="/bookkartApp" extends="struts-default">
+		<action name="Login">
+			<result>http://localhost:8080/bookkartApp/userregistration/login.jsp</result>
+		</action>
+		<action name="Welcome" class="com.bookkart.userregistration.WelcomeUserAction">
+			<result name="SUCCESS">userregistration/welcome_user.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -12,6 +12,7 @@
       <meta name="google-signin-client_id" content="120585811609-i9n9aanuomtflnbshois4bbho2ru76up.apps.googleusercontent.com">
 
       <title>Online Bookstore</title> 
+      <base href="http://localhost:8080/bookkartApp/">
 
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.css"/>

@@ -14,12 +14,12 @@
 								<div class="col-md-3 col-sm-3">
 									<ul class="list-unstyled list-inline bk-list-style">
 										<li><a class="bk-hyper-link" href="#"><span class="glyphicon glyphicon-map-marker"></span> Track Order</a></li>
-										<li><a class="bk-hyper-link" href="">Contact Us</a></li>
+										<li><a class="bk-hyper-link" href="feedback/ContactUs.jsp">Contact Us</a></li>
 									</ul>
 								</div>
 								<div class="col-md-5 col-sm-6">
 									<ul class="list-unstyled list-inline bk-list-style">
-										<li><a class="bk-hyper-link" href="#"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
+										<li><a class="bk-hyper-link" href="Login"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
 										<!--<li><a class="bk-hyper-link" href="#"><i class="fa fa-user-plus fa-lg"></i> SignUp</a></li>-->
 										<li><a class="bk-hyper-link" href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
 									</ul>
