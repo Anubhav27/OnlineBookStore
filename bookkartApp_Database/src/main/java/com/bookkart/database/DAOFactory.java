@@ -21,9 +21,9 @@ public abstract class DAOFactory {
 		
 	}
 	
-	public abstract void loadJDBCDriver();
-	public abstract Connection getDBConnection();
-	public abstract void closeDBConnection();
+	//public abstract void loadJDBCDriver();
+	//public abstract Connection getDBConnection();
+	//public abstract void closeDBConnection();
 	public abstract ContactDAO getContactDAO();
 	
 	

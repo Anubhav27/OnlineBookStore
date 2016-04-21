@@ -13,8 +13,11 @@ public class MySQLContactDAO implements ContactDAO {
 	}
 
 	@Override
-	public int insertContactUs(Connection conn, Contact con) {
+	public int insertContactUs(Contact con) {
 		// TODO Auto-generated method stub
+		MySQLDAOFactory myf = new MySQLDAOFactory();
+		myf.loadJDBCDriver();
+		Connection conn = myf.getDBConnection();
 		int rs = 0;
 		if(conn == null){
 			System.out.println("connection is null");
@@ -43,12 +46,14 @@ public class MySQLContactDAO implements ContactDAO {
 			System.out.println("SQL exception occured");
 			e.printStackTrace();
 		}
+		
+		myf.closeDBConnection();
 		}
 		return rs;
 	}
 
 	@Override
-	public boolean deleteContactUS(Connection conn, Contact con) {
+	public boolean deleteContactUS(Contact con) {
 		// TODO Auto-generated method stub
 		return false;
 	}

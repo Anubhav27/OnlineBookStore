@@ -1,2 +1,6 @@
+com\bookkart\action\feedback\RegisterContactDAO.class
+com\bookkart\action\feedback\SubmitContact.class
 com\bookkart\userregistration\WelcomeUserAction.class
 com\bookkart\action\Test.class
+com\bookkart\action\feedback\ContactUserAction.class
+com\bookkart\userregistration\LoginUserAction.class

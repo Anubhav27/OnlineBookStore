@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>
+   <constant name="struts.devMode" value="true" />
+    <package name="user" extends="struts-default">
+     
+		<action name="Login" class="com.bookkart.userregistration.LoginUserAction">
+			<result name="SUCCESS">userregistration/login.jsp</result>
+		</action>
+		<action name="Welcome" class="com.bookkart.userregistration.WelcomeUserAction">
+			<result name="SUCCESS">userregistration/welcome_user.jsp</result>
+		</action>
+	</package>
+	
+    <package name="usercontact" extends="struts-default" namespace="/">
+     
+		<action name="ContactUs" class="com.bookkart.action.feedback.ContactUserAction">
+			<result name="success">feedback/ContactUs.jsp</result>
+		</action>
+		<action name="SubmitContact" class="com.bookkart.action.feedback.SubmitContact">
+			<result name="success">feedback/ContactUs_Success.jsp</result>
+			<result name="error">feedback/ContactUs_Error.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -4,7 +4,7 @@ import java.sql.Connection;
 
 public interface ContactDAO {
 	
-	public int insertContactUs(Connection conn , Contact con);
-	public boolean deleteContactUS(Connection conn, Contact con);
+	public int insertContactUs(Contact con);
+	public boolean deleteContactUS(Contact con);
 
 }

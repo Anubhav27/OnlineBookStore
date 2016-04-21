@@ -5,6 +5,9 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="bookkartApp_Database-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bookkartApp_Database/bookkartApp_Database">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="bookkartApp"/>
         <property name="java-output-path" value="/bookkartApp/target/classes"/>
     </wb-module>

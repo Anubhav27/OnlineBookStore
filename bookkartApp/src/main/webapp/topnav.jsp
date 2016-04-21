@@ -1,5 +1,6 @@
  <!-- Top nav -->
- 
+ <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
  <div class="container-fluid bk-app-top-div">
 			<!-- Top navigation bar having quick links-->
 				<div class="top-menu-bar hidden-xs">
@@ -14,7 +15,7 @@
 								<div class="col-md-3 col-sm-3">
 									<ul class="list-unstyled list-inline bk-list-style">
 										<li><a class="bk-hyper-link" href="#"><span class="glyphicon glyphicon-map-marker"></span> Track Order</a></li>
-										<li><a class="bk-hyper-link" href="feedback/ContactUs.jsp">Contact Us</a></li>
+										<li><a class="bk-hyper-link" href="ContactUs">Contact Us</a></li>
 									</ul>
 								</div>
 								<div class="col-md-5 col-sm-6">
